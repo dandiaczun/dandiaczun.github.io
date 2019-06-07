@@ -86,26 +86,24 @@ class Index extends React.Component {
             </header>
             <ul className="portfolio">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Code</h3>
+                <span className="icon major style1"></span>
+                <h3>Southwest Airlines</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <Link to="/southwest" className="button">Learn More</Link>
               </li>
               <li>
-                <span className="icon major style3 fa-user-circle-o"></span>
+                <span className="icon major style3"></span>
                 <h3>User Experience</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <Link to="/generic" className="button">Learn More</Link>
               </li>
               <li>
-                <span className="icon major style5 fa-lightbulb-o"></span>
+                <span className="icon major style5"></span>
                 <h3>Strategy</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <Link to="/generic" className="button">Learn More</Link>
               </li>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
           </section>
 
           <section id="cta" className="main special">
