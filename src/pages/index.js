@@ -49,7 +49,7 @@ class Index extends React.Component {
                 </header>
                 <p>You're probably asking yourself "what the $#@% is a UX developer?" - it's cool, I did the same when I first heard it.</p>
                 <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
+                  <li><Link to="/generic" className="button">Read More</Link></li>
                 </ul>
               </div>
               <span className="image"><img src={pic01} alt="" /></span>
@@ -117,7 +117,7 @@ class Index extends React.Component {
               </li>
             </ul>
           </section>
-
+          {/*
           <section id="cta" className="main special">
             <header className="major">
               <h2>Congue imperdiet</h2>
@@ -131,7 +131,7 @@ class Index extends React.Component {
               </ul>
             </footer>
           </section>
-
+          */}
         </div>
 
       </Layout>
