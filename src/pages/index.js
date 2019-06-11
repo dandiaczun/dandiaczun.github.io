@@ -93,15 +93,27 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major style3"></span>
-                <h3>User Experience</h3>
+                <h3>Clairol Pro</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                <Link to="/generic" className="button">Learn More</Link>
+                <Link to="/clairolpro" className="button">Learn More</Link>
               </li>
               <li>
                 <span className="icon major style5"></span>
-                <h3>Strategy</h3>
+                <h3>DeVry University</h3>
                 <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                <Link to="/generic" className="button">Learn More</Link>
+                <Link to="/devry" className="button">Learn More</Link>
+              </li>
+              <li>
+                <span className="icon major style5"></span>
+                <h3>Verizon Wireless</h3>
+                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <Link to="/verizon" className="button">Learn More</Link>
+              </li>
+              <li>
+                <span className="icon major style5"></span>
+                <h3>Allstate Insurance</h3>
+                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <Link to="/allstate" className="button">Learn More</Link>
               </li>
             </ul>
           </section>
