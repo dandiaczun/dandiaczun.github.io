@@ -13,17 +13,16 @@ class Generic extends React.Component {
         <Helmet title="Dan Diaczun | Chicago UX Developer" />
         {/* <HeaderGeneric /> */}
         <header id="header">
-            <h1>Generic</h1>
-            <p>Ipsum dolor sit amet nullam</p>
+            <h1>Clairol Pro</h1>
+            <p>Product Launch Page</p>
         </header>
         <div id="main">
           <section id="content" className="main">
+            <p>While at Performics we were approached by ClariolPro, an existing client, who were unhappy with their current website and felt that it didn't match the look and feel of a new product launching in the spring of 2019. With minimal assets, my team and I re-designed and developed a new product page for their site that reflected their current branding and was designed to support their goal of increasing conversions and educating customers.</p>
             <span className="image main"><img src={pic04} alt="" /></span>
-            <h2>Southwest Airlines</h2>
-            <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
-            <p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.</p>
-            <h2>Tempus veroeros</h2>
-            <p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
+            <p>The re-designed page saw a 12.4% click-through rate vs. 4.8% for the existing product pages and drove 18% of all site conversions. It was the 3rd most viewed product page on clairolpro.com and saw a bounce rate that was 51% lower than the site average.</p>
+            <h2>Role & Technologies Used</h2>
+            <p>During this project I served as the lead front-end developer and assisted with designing wireframes using Axure & the initial whiteboard strategy sessions. The page was developed using Bootstrap, Django & jQuery, and hosted on a propriety Python application & AWS.</p>
           </section>
         </div>
       </Layout>

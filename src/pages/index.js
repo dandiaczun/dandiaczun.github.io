@@ -64,17 +64,17 @@ class Index extends React.Component {
               <li>
                 <span className="icon major style1 fa-code"></span>
                 <h3>Code</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <p>With a background in front-end development and natural curiosity to understand how things work, I'm comfortable across the modern front-end stack and am quick to learn new technologies.</p>
               </li>
               <li>
                 <span className="icon major style3 fa-user-circle-o"></span>
                 <h3>User Experience</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <p>Understanding the users' needs and behaviors is the cornerstone of my work. I strive to use an empathetic in my design decisions and use analytics to hone my understanding.</p>
               </li>
               <li>
                 <span className="icon major style5 fa-lightbulb-o"></span>
                 <h3>Strategy</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <p>Whether it's with a pen &amp; paper or a whiteboard, I love brainstorming solutions to complex problems. No idea is a bad idea and nothing is off limits.</p>
               </li>
             </ul>
           </section>
@@ -82,38 +82,27 @@ class Index extends React.Component {
           <section id="second" className="main special">
             <header className="major">
               <h2>My Portfolio</h2>
-              <p>Portfolio blurb will go here</p>
             </header>
             <ul className="portfolio">
               <li>
                 <span className="icon major style1"></span>
                 <h3>Southwest Airlines</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
                 <Link to="/southwest" className="button">Learn More</Link>
               </li>
               <li>
                 <span className="icon major style3"></span>
                 <h3>Clairol Pro</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
                 <Link to="/clairolpro" className="button">Learn More</Link>
               </li>
               <li>
                 <span className="icon major style5"></span>
-                <h3>DeVry University</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                <Link to="/devry" className="button">Learn More</Link>
+                <h3>Lenovo Social Platform</h3>
+                <Link to="/lenovo-social" className="button">Learn More</Link>
               </li>
               <li>
                 <span className="icon major style5"></span>
-                <h3>Verizon Wireless</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                <Link to="/verizon" className="button">Learn More</Link>
-              </li>
-              <li>
-                <span className="icon major style5"></span>
-                <h3>Allstate Insurance</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                <Link to="/allstate" className="button">Learn More</Link>
+                <h3>Lenovo Product Launch</h3>
+                <Link to="/lenovo-social" className="button">Learn More</Link>
               </li>
             </ul>
           </section>
