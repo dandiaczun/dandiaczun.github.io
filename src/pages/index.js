@@ -96,12 +96,22 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major style5"></span>
-                <h3>Lenovo Social Platform</h3>
+                <h3>DeVry University</h3>
+                <Link to="/devry" className="button">Learn More</Link>
+              </li>
+              <li>
+                <span className="icon major style5"></span>
+                <h3>SIRVA</h3>
+                <Link to="/sirva" className="button">Learn More</Link>
+              </li>
+              <li>
+                <span className="icon major style5"></span>
+                <h3>Lenovo Social</h3>
                 <Link to="/lenovo-social" className="button">Learn More</Link>
               </li>
               <li>
                 <span className="icon major style5"></span>
-                <h3>Lenovo Product Launch Site</h3>
+                <h3>Lenovo Product Launch</h3>
                 <Link to="/lenovo-product" className="button">Learn More</Link>
               </li>
             </ul>
