@@ -2,7 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import HeaderGeneric from '../components/HeaderGeneric'
 import pic04 from '../assets/images/pic04.jpg'
 
 class Generic extends React.Component {
@@ -11,7 +10,6 @@ class Generic extends React.Component {
     return (
       <Layout>
         <Helmet title="Dan Diaczun | Chicago UX Developer" />
-        {/* <HeaderGeneric /> */}
         <header id="header">
             <h1>Clairol Pro</h1>
             <p>Product Launch Page</p>

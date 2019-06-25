@@ -10,7 +10,6 @@ class Generic extends React.Component {
     return (
       <Layout>
         <Helmet title="Dan Diaczun | Chicago UX Developer" />
-        {/* <HeaderGeneric /> */}
         <header id="header">
             <h1>Southwest Airlines</h1>
             <p>Origin & Destination Landing Pages</p>
