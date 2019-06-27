@@ -2,7 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import pic04 from '../assets/images/pic04.jpg'
+
+import devry_site from '../assets/images/devry-site.jpg'
+import devry_wireframe from '../assets/images/devry-wireframe.jpg'
 
 class Generic extends React.Component {
   render() {
@@ -18,7 +20,8 @@ class Generic extends React.Component {
           <section id="content" className="main">
             <h2>Summary</h2>
             <p>In 2017 DeVry University's Keller Graduate School of Management approached Performics about re-designing and building their website with a focus on increased conversions and a better mobile experience. Their previous site was not responsive or optimized for a mobile experience so my team and I decided a mobile first approach was absolutely necessary. Their target demographic for these pages was prospective students between the ages of 22-30 who relied heavily on their mobile devices to search for prospective schools. </p>
-            <span className="image main"><img src={pic04} alt="" /></span>
+            <span className="image main"><img src={devry_site} alt="" /></span>
+            <span className="image main"><img src={devry_wireframe} alt="" /></span>
             <h2>Results</h2>
             <p>The re-designed site saw 25% decrease in load time on mobile devices compared to the old site while the bounce rate decreased 15% from 60% to 45%. The site's copy was also re-written by Performics' in-house copy team which saw increases in SEO rankings and conversions.</p>
             <h2>Role & Technologies Used</h2>
