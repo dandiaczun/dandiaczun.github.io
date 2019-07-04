@@ -22,7 +22,7 @@ class Generic extends React.Component {
             <span className="image main"><img src={lenovo_product1} alt="" /></span>
             <span className="image main"><img src={lenovo_product2} alt="" /></span>
             <h2>Results</h2>
-            <p>The site was launched in 58 countries and saw 131,000 visitors in its first week.</p>
+            <p>The site was launched in 58 countries across 30 operating systems and devices and saw 131,000 visitors in its first week of traffic, the most for any Lenovo product site at the time.</p>
             <h2>Role & Technologies Used</h2>
             <p>I served as the front-end developer on this project, which was built using HTML5, CSS3, jQuery.</p>
           </section>
