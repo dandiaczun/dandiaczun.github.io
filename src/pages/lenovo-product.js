@@ -2,6 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
+import lenovo_product1 from '../assets/images/lenovo-product1.jpg'
+import lenovo_product2 from '../assets/images/lenovo-product2.jpg'
+
 
 class Generic extends React.Component {
   render() {
@@ -15,10 +18,13 @@ class Generic extends React.Component {
         </header>
         <div id="main">
           <section id="content" className="main">
-            <p>Another Lenovo project I worked on at Blast Radius was building a microsite to support the launch of a new generation of YOGA tablets and laptops. The site needed to demonstrate the benefits of a multi-purpose device while allowing users to explore the different product features without affecting load times or site speed. </p>
-            <p>The site was designed to showcase the product's unique features and used Ashton Kutcher, a Lenovo product engineer, to demonstrate it's capabilties.</p>
+            <p>Another Lenovo project I worked on at Blast Radius was building a microsite to support the launch of a new generation of YOGA tablets and laptops. The site needed to demonstrate the benefits of a multi-purpose device while allowing users to explore the different product features without affecting load times or site speed. The site was designed to showcase the product's unique features and used Ashton Kutcher, a Lenovo product engineer, to demonstrate it's capabilties.</p>
+            <span className="image main"><img src={lenovo_product1} alt="" /></span>
+            <span className="image main"><img src={lenovo_product2} alt="" /></span>
+            <h2>Results</h2>
+            <p>The site was launched in 58 countries and saw 131,000 visitors in its first week.</p>
             <h2>Role & Technologies Used</h2>
-            <p>I served as the front-end developer on this project, which was built using HTML5, CSS3, jQuery. The site was launched in 58 countries and saw 131,000 visitors in its first week.</p>
+            <p>I served as the front-end developer on this project, which was built using HTML5, CSS3, jQuery.</p>
           </section>
         </div>
       </Layout>
