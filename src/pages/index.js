@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import headshot from '../assets/images/headshot.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -48,12 +48,12 @@ class Index extends React.Component {
                   <h2>About Me</h2>
                 </header>
                 <p>You're probably asking yourself "what the $#@% is a UX developer?" I thought the same when I first heard it, but then after taking a step back I realized it's what describes me best. I've always been passionate about the left-brain/right-brain marriage of design and technology and have strived to incorporate both into my work as much as possible.</p>
-                
+                <p></p>
                 <ul className="actions">
                   <li><Link to="/generic" className="button">Read More</Link></li>
                 </ul>
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
+              <span className="image"><img src={headshot} alt="" /></span>
             </div>
           </section>
 
