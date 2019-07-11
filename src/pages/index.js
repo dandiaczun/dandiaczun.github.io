@@ -47,7 +47,7 @@ class Index extends React.Component {
                 <header className="major">
                   <h2>About Me</h2>
                 </header>
-                <p>You're probably asking yourself "what the $#@% is a UX developer?" I thought the same when I first heard it, but then after taking a step back I realized it's what describes me best. I've always been passionate about the intersection of creativity and technology and </p>
+                <p>You're probably asking yourself "what the $#@% is a UX developer?" I thought the same when I first heard it, but then after taking a step back I realized it's what describes me best. I've always been passionate about the intersection of creativity and technology and  </p>
                 <ul className="actions">
                   <li><Link to="/generic" className="button">Read More</Link></li>
                 </ul>

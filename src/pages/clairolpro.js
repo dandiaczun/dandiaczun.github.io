@@ -26,6 +26,11 @@ class Generic extends React.Component {
             <h2>Role & Technologies Used</h2>
             <p>During this project I served as the lead front-end developer and assisted with designing wireframes using Axure & the initial whiteboard strategy sessions. The page was developed using Bootstrap, Django & jQuery, and hosted on a propriety Python application & AWS.</p>
           </section>
+          <div className="portfolioNav">
+            <a href="/southwest" id="prev">Prev</a>
+            <a href="/" id="home">Home</a>
+            <a href="/devry" id="next">Next</a>
+          </div>
         </div>
       </Layout>
     )

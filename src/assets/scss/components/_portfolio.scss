@@ -58,3 +58,23 @@
 			}
 		}
 	}
+
+	.portfolioNav {
+		width: 90%;
+		margin: 0 auto;
+		padding: 15px 10px;
+		text-align: center;
+
+		#prev {
+			float: left;
+		}
+
+		#home {
+			text-align: center;
+		}
+
+		#next {
+			float: right;
+		}
+
+	}

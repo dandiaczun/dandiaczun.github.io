@@ -31,6 +31,11 @@ class Generic extends React.Component {
             <h2>Role &amp; Technologies Used</h2>
             <p>I served as user experience designer and front-end developer on this project and was responsible for strategy, wireframes, and A/B test development. The wireframes were built using Axure and the A/B tests were built in Optimizely using Javascript, HTML5 and CSS3. </p>
           </section>
+          <div className="portfolioNav">
+            <a href="/devry" id="prev">Prev</a>
+            <a href="/" id="home">Home</a>
+            <a href="/lenovo-social" id="next">Next</a>
+          </div>
         </div>
       </Layout>
     )

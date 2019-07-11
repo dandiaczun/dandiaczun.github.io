@@ -2,7 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Nav from '../components/Nav'
-import PortfolioNav from '../components/PortfolioNav'
 import Layout from '../components/layout'
 import southwest_desktop from '../assets/images/southwest.jpg'
 import southwest_wireframe from '../assets/images/southwest-wireframe.jpg'
@@ -17,7 +16,6 @@ class Page extends React.Component {
             <h1>Southwest Airlines</h1>
             <p>Origin & Destination Landing Pages</p>
         </header>
-        <PortfolioNav></PortfolioNav>
         <div id="main">
           <section id="content" className="main">
             <h2>Summary</h2>
@@ -29,7 +27,13 @@ class Page extends React.Component {
             <h2>Role &amp; Technologies Used</h2>
             <p>During this project I served as the lead front-end developer and assisted with strategy, user experience, wireframes &amp; prototypes. The page template was built using Bootstrap and Django, which was then hosted on a proprietary Python application and AWS. </p>
           </section>
+          <div className="portfolioNav">
+            <a href="/lenovo-product" id="prev">Prev</a>
+            <a href="/" id="home">Home</a>
+            <a href="/clairolpro" id="next">Next</a>
+          </div>
         </div>
+
       </Layout>
     )
   }

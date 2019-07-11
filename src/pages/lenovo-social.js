@@ -24,6 +24,11 @@ class Generic extends React.Component {
             <h2>Role & Technologies Used</h2>
             <p>I served as the front-end developer on this project, which was built using HTML5, CSS3, jQuery and hosted on Tumblr, a first for Lenovo. The site's hashtag was listed with Chirpify on Instagram, Twitter and Facebook with entry listening, aggregation and moderation done via BazaarVoice. Once a submission was approved by a local moderator it was integrated into the custom Tumblr theme, which could be browesed in 21 different languages and filtered by country, challenge, popularity and Lenovo favorites. </p>
           </section>
+          <div className="portfolioNav">
+            <a href="/devry" id="prev">Prev</a>
+            <a href="/" id="home">Home</a>
+            <a href="/lenovo-product" id="next">Next</a>
+          </div>
         </div>
       </Layout>
     )

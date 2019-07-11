@@ -26,6 +26,11 @@ class Generic extends React.Component {
             <h2>Role & Technologies Used</h2>
             <p>I served as the front-end developer on this project, which was built using HTML5, CSS3, jQuery.</p>
           </section>
+          <div className="portfolioNav">
+            <a href="/lenovo-social" id="prev">Prev</a>
+            <a href="/" id="home">Home</a>
+            <a href="/southwest" id="next">Next</a>
+          </div>
         </div>
       </Layout>
     )
