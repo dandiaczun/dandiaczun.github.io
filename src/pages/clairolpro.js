@@ -16,6 +16,13 @@ class Generic extends React.Component {
             <p>Product Launch Page</p>
         </header>
         <div id="main">
+        <div className="portfolioNav">
+          <ul>
+            <li><a href="/southwest" id="prev">Prev</a></li>
+            <li><a href="/" id="home">Home</a></li>
+            <li><a href="/devry" id="next">Next</a></li>
+          </ul>
+        </div>
           <section id="content" className="main">
           <h2>Summary</h2>
             <p>While at Performics we were approached by ClariolPro, an existing client, who were unhappy with their current website and felt that it didn't match the look and feel of a new product launching in the spring of 2019. With minimal assets, my team and I re-designed and developed a new product page for their site that reflected their current branding and was designed to support their goal of increasing conversions and educating customers.</p>
@@ -27,9 +34,11 @@ class Generic extends React.Component {
             <p>During this project I served as the lead front-end developer and assisted with designing wireframes using Axure & the initial whiteboard strategy sessions. The page was developed using Bootstrap, Django & jQuery, and hosted on a propriety Python application & AWS.</p>
           </section>
           <div className="portfolioNav">
-            <a href="/southwest" id="prev">Prev</a>
-            <a href="/" id="home">Home</a>
-            <a href="/devry" id="next">Next</a>
+            <ul>
+              <li><a href="/southwest" id="prev">Prev</a></li>
+              <li><a href="/" id="home">Home</a></li>
+              <li><a href="/devry" id="next">Next</a></li>
+            </ul>
           </div>
         </div>
       </Layout>

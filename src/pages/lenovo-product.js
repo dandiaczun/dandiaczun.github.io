@@ -17,6 +17,13 @@ class Generic extends React.Component {
             <p>YOGA Product Launch Site</p>
         </header>
         <div id="main">
+        <div className="portfolioNav">
+          <ul>
+            <li><a href="/lenovo-social" id="prev">Prev</a></li>
+            <li><a href="/" id="home">Home</a></li>
+            <li><a href="/southwest" id="next">Next</a></li>
+          </ul>
+        </div>
           <section id="content" className="main">
             <p>Another Lenovo project I worked on at Blast Radius was building a microsite to support the launch of a new generation of YOGA tablets and laptops. The site needed to demonstrate the benefits of a multi-purpose device while allowing users to explore the different product features without affecting load times or site speed. The site was designed to showcase the product's unique features and used Ashton Kutcher, a Lenovo product engineer, to demonstrate it's capabilties.</p>
             <span className="image main"><img src={lenovo_product1} alt="" /></span>
@@ -27,9 +34,11 @@ class Generic extends React.Component {
             <p>I served as the front-end developer on this project, which was built using HTML5, CSS3, jQuery.</p>
           </section>
           <div className="portfolioNav">
-            <a href="/lenovo-social" id="prev">Prev</a>
-            <a href="/" id="home">Home</a>
-            <a href="/southwest" id="next">Next</a>
+            <ul>
+              <li><a href="/lenovo-social" id="prev">Prev</a></li>
+              <li><a href="/" id="home">Home</a></li>
+              <li><a href="/southwest" id="next">Next</a></li>
+            </ul>
           </div>
         </div>
       </Layout>

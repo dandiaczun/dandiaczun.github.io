@@ -17,6 +17,13 @@ class Generic extends React.Component {
             <p>Keller Graduate School Site Re-Design & Build</p>
         </header>
         <div id="main">
+          <div className="portfolioNav">
+            <ul>
+              <li><a href="/clairolpro" id="prev">Prev</a></li>
+              <li><a href="/" id="home">Home</a></li>
+              <li><a href="/sirva" id="next">Next</a></li>
+            </ul>
+          </div>
           <section id="content" className="main">
             <h2>Summary</h2>
             <p>In 2017 DeVry University's Keller Graduate School of Management approached Performics about re-designing and building their website with a focus on increased conversions and a better mobile experience. Their previous site was not responsive or optimized for a mobile experience so my team and I decided a mobile first approach was absolutely necessary. Their target demographic for these pages was prospective students between the ages of 22-30 who relied heavily on their mobile devices to search for prospective schools. </p>
@@ -28,9 +35,11 @@ class Generic extends React.Component {
             <p>I served as UX designer and front-end developer on this project, designing the wireframes and building the site using HTML5, CSS and Javascript, which was then integrated into DeVry's Angular app that powered their entire site.</p>
           </section>
           <div className="portfolioNav">
-            <a href="/clairolpro" id="prev">Prev</a>
-            <a href="/" id="home">Home</a>
-            <a href="/sirva" id="next">Next</a>
+            <ul>
+              <li><a href="/clairolpro" id="prev">Prev</a></li>
+              <li><a href="/" id="home">Home</a></li>
+              <li><a href="/sirva" id="next">Next</a></li>
+            </ul>
           </div>
         </div>
       </Layout>

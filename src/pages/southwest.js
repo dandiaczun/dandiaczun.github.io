@@ -17,6 +17,13 @@ class Page extends React.Component {
             <p>Origin & Destination Landing Pages</p>
         </header>
         <div id="main">
+          <div className="portfolioNav">
+            <ul>
+              <li><a href="/lenovo-product" id="prev">Prev</a></li>
+              <li><a href="/" id="home">Home</a></li>
+              <li><a href="/clairolpro" id="next">Next</a></li>
+            </ul>
+          </div>
           <section id="content" className="main">
             <h2>Summary</h2>
             <p>In mid-2018 Performics pitched a re-design and build of their origin and destination landing pages, which are generate roughly $100 million in revenue. These new pages were designed to address past issues that Southwest had with these pages, mainly poor conversions and bounce rates. My team had worked in tandem with Southwest's UX team to create several personas that better reflected their current customer who was most likely to book a flight through one of these pages and designed our page to incorporate Southwest's updated branding. A modular based template was then built which would then power approximately 8600 landing pages on Southwest.com.</p>
@@ -28,9 +35,11 @@ class Page extends React.Component {
             <p>During this project I served as the lead front-end developer and assisted with strategy, user experience, wireframes &amp; prototypes. The page template was built using Bootstrap and Django, which was then hosted on a proprietary Python application and AWS. </p>
           </section>
           <div className="portfolioNav">
-            <a href="/lenovo-product" id="prev">Prev</a>
-            <a href="/" id="home">Home</a>
-            <a href="/clairolpro" id="next">Next</a>
+          <ul>
+            <li><a href="/lenovo-product" id="prev">Prev</a></li>
+            <li><a href="/" id="home">Home</a></li>
+            <li><a href="/clairolpro" id="next">Next</a></li>
+          </ul>
           </div>
         </div>
 
