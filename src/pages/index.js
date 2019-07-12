@@ -6,7 +6,14 @@ import Waypoint from 'react-waypoint'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
+
 import headshot from '../assets/images/headshot.jpg'
+import southwest_thumb from '../assets/images/southwest-thumbnail.jpg'
+import clairol_thumb from '../assets/images/clairol-thumbnail.jpg'
+import devry_thumb from '../assets/images/devry-thumbnail.jpg'
+import sirva_thumb from '../assets/images/sirva-thumbnail.jpg'
+import lenovo_social_thumb from '../assets/images/lenovo-social-thumbnail.jpg'
+import lenovo_product_thumb from '../assets/images/lenovo-product-thumbnail.jpg'
 
 class Index extends React.Component {
   constructor(props) {
@@ -48,7 +55,10 @@ class Index extends React.Component {
                   <h2>About Me</h2>
                 </header>
                 <p>You're probably asking yourself "what the $#@% is a UX developer?" I thought the same when I first heard it, but then after taking a step back I realized it's what describes me best. I've always been passionate about the left-brain/right-brain marriage of design and technology and have strived to incorporate both into my work as much as possible.</p>
-                <p></p>
+                <div className="read-more-content">
+                  <p>I don't have a particulary interesting story as to how I became a UX developer, but I've always loved technology and learning how things work. Pair that with an eye for design and layout and here I am over 10 years later doing what I love, designing & building clean and elegant web solutions for Fortune 500 clients such as Southwest Airlines, Discover and United Healthcare. I love solving problems and learning new skills along the way, wherever and however possible.</p>
+                  <p>In my free time I'm most likely doing something music related, whether it's catching a show, playing drums or bass guitar with an ensemble at the Old Town School of Music, or browsing a record shop.</p>
+                </div>
                 <ul className="actions">
                   <li><Link to="/generic" className="button">Read More</Link></li>
                 </ul>
@@ -86,32 +96,44 @@ class Index extends React.Component {
             </header>
             <ul className="portfolio">
               <li>
-                <span className="icon major style1"></span>
+                <span className="image">
+                  <img src={southwest_thumb} alt="Southwest Portfolio Thumbnail" />
+                </span>
                 <h3>Southwest Airlines</h3>
-                <Link to="/southwest" className="button">Learn More</Link>
+                <Link to="/southwest" className="button">Read More</Link>
               </li>
               <li>
-                <span className="icon major style3"></span>
+                <span className="image">
+                  <img src={clairol_thumb} alt="ClairolPro Portfolio Thumbnail" />
+                </span>
                 <h3>Clairol Pro</h3>
                 <Link to="/clairolpro" className="button">Learn More</Link>
               </li>
               <li>
-                <span className="icon major style5"></span>
+                <span className="image">
+                  <img src={devry_thumb} alt="DeVry Portfolio Thumbnail" />
+                </span>
                 <h3>DeVry University</h3>
                 <Link to="/devry" className="button">Learn More</Link>
               </li>
               <li>
-                <span className="icon major style5"></span>
+                <span className="image">
+                  <img src={sirva_thumb} alt="SIRVA Portfolio Thumbnail" />
+                </span>
                 <h3>SIRVA</h3>
                 <Link to="/sirva" className="button">Learn More</Link>
               </li>
               <li>
-                <span className="icon major style5"></span>
+                <span className="image">
+                  <img src={lenovo_social_thumb} alt="Lenovo Social Thumbnail" />
+                </span>
                 <h3>Lenovo Social</h3>
                 <Link to="/lenovo-social" className="button">Learn More</Link>
               </li>
               <li>
-                <span className="icon major style5"></span>
+                <span className="image">
+                  <img src={lenovo_product_thumb} alt="Lenovo Product Thumbnail" />
+                </span>
                 <h3>Lenovo Product Launch</h3>
                 <Link to="/lenovo-product" className="button">Learn More</Link>
               </li>

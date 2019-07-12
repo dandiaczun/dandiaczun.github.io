@@ -97,3 +97,15 @@
 			}
 		}
 	}
+
+	ul.portfolio li span.image {
+		border: 1px solid #ddd;
+		border-radius: 100%;
+		padding: 8px;
+
+		img {
+			display: block;
+			border-radius: 100%;
+			width: 7em;
+		}
+	}
