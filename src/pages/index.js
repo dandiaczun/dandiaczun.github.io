@@ -54,14 +54,19 @@ class Index extends React.Component {
                 <header className="major">
                   <h2>About Me</h2>
                 </header>
-                <p>You're probably asking yourself "what the $#@% is a UX developer?" I thought the same when I first heard it, but then after taking a step back I realized it's what describes me best. I've always been passionate about the left-brain/right-brain marriage of design and technology and have strived to incorporate both into my work as much as possible.</p>
-                <div className="read-more-content">
-                  <p>I don't have a particulary interesting story as to how I became a UX developer, but I've always loved technology and learning how things work. Pair that with an eye for design and layout and here I am over 10 years later doing what I love, designing & building clean and elegant web solutions for Fortune 500 clients such as Southwest Airlines, Discover and United Healthcare. I love solving problems and learning new skills along the way, wherever and however possible.</p>
-                  <p>In my free time I'm most likely doing something music related, whether it's catching a show, playing drums or bass guitar with an ensemble at the Old Town School of Music, or browsing a record shop.</p>
+                {/*<div className="read-more-wrap">
+                  <div className="read-more-content">
+                    <p>I don't have a particulary interesting story as to how I became a UX developer, but I've always loved technology and learning how things work. Pair that with an eye for design and layout and here I am over 10 years later doing what I love, designing & building clean and elegant web solutions for Fortune 500 clients such as Southwest Airlines, Discover and United Healthcare. I love solving problems and learning new skills along the way, wherever and however possible.</p>
+                    <p>In my free time I'm most likely doing something music related, whether it's catching a show, playing drums or bass guitar with an ensemble at the <a href="https://www.oldtownschool.org/" target="_blank">Old Town School of Music</a>, or browsing a record shop.</p>
+                  </div>
+                </div>*/}
+                <input type="checkbox" class="read-more-state" id="post-2" />
+                <div className="read-more-wrap">
+                  <p>You're probably asking yourself "what the $#@% is a UX developer?" I thought the same when I first heard it, but then after taking a step back I realized it's what describes me best. I've always been passionate about the left-brain/right-brain marriage of design and technology and have strived to incorporate both into my work as much as possible.</p>
+                  <p className="read-more-target">I don't have a particulary interesting story as to how I became a UX developer, but I've always loved technology and learning how things work. Pair that with an eye for design and layout and here I am over 10 years later doing what I love, designing & building clean and elegant web solutions for Fortune 500 clients such as Southwest Airlines, Discover and United Healthcare. I love solving problems and learning new skills along the way, wherever and however possible.</p>
+                  <p className="read-more-target">In my free time I'm most likely doing something music related, whether it's catching a show, playing drums or bass guitar with an ensemble at the <a href="https://www.oldtownschool.org/" target="_blank">Old Town School of Music</a>, or browsing a record shop.</p>
                 </div>
-                <ul className="actions">
-                  <li><Link to="/generic" className="button">Read More</Link></li>
-                </ul>
+                <label for="post-2" class="read-more-trigger"></label>
               </div>
               <span className="image"><img src={headshot} alt="" /></span>
             </div>
