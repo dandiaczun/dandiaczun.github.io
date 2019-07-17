@@ -99,13 +99,19 @@
 	}
 
 	ul.portfolio li span.image {
-		border: 1px solid #ddd;
+		display: inline-block;
+		//margin-left: 4em;
+		padding: 0.45em;
 		border-radius: 100%;
-		padding: 8px;
+		border: solid 1px #ddd;
+		width: 7.75em;
+		height: 7.75em;
+		position: relative;
 
 		img {
 			display: block;
 			border-radius: 100%;
-			width: 7em;
+			width: 6.75em;
+			height: 6.75em;
 		}
 	}
