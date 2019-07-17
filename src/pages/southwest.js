@@ -30,9 +30,9 @@ class Page extends React.Component {
             <span className="image main"><img src={southwest_desktop} alt="" /></span>
             <span className="image main"><img src={southwest_wireframe} alt="" /></span>
             <h2>Results</h2>
-            <p>A mobile first approach was adopted which saw increases in performance, accessiblity and SEO rankings. The new pages also saw a 300% increase in mobile bookings in their first 2 months of being live and continue to be some of the highest performing landing pages on Southwest.com.</p>
+            <p>A mobile first approach using adaptive content was implemented which saw a 28% decrease in page weight on mobile and a 58% decrease on desktop. The pages also saw increases in performance, accessiblity and SEO rankings along with a 93% decrease in usablitiy errors. The new pages also saw a 300% increase in mobile bookings in their first 2 months of being live and continue to be some of the highest performing landing pages on Southwest.com.</p>
             <h2>Role &amp; Technologies Used</h2>
-            <p>During this project I served as the lead front-end developer and assisted with strategy, user experience, wireframes &amp; prototypes. The page template was built using Bootstrap and Django, which was then hosted on a proprietary Python application and AWS. </p>
+            <p>During this project I served as the lead front-end developer and assisted with strategy, user experience, wireframes &amp; prototypes. The wireframes and prototypes were built using Axure while the page template was built using Bootstrap and Django, which was then hosted on a proprietary Python application and AWS. </p>
           </section>
           <div className="portfolioNav">
           <ul>
