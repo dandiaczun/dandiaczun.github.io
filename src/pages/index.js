@@ -85,7 +85,7 @@ class Index extends React.Component {
               <li>
                 <span className="icon major style3 fa-user-circle-o"></span>
                 <h3>User Experience</h3>
-                <p>Understanding the users' needs and behaviors is the cornerstone of my work. I strive to use an empathetic in my design decisions and use analytics to hone my understanding.</p>
+                <p>Understanding the users' needs and behaviors is the cornerstone of my work. I strive to use an empathetic in my design decisions and use analytics to hone my understanding of user behaviors.</p>
               </li>
               <li>
                 <span className="icon major style5 fa-lightbulb-o"></span>
@@ -105,7 +105,7 @@ class Index extends React.Component {
                   <img src={southwest_thumb} alt="Southwest Portfolio Thumbnail" />
                 </span>
                 <h3>Southwest Airlines</h3>
-                <Link to="/southwest" className="button">Read More</Link>
+                <Link to="/southwest" className="button">Learn More</Link>
               </li>
               <li>
                 <span className="image">
