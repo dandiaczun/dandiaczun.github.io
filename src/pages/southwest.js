@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import Nav from '../components/Nav'
 import Layout from '../components/layout'
-import southwest_desktop from '../assets/images/southwest.jpg'
+import southwest_desktop from '../assets/images/southwest-desktop.jpg'
 import southwest_wireframe from '../assets/images/southwest-wireframe.jpg'
 
 class Page extends React.Component {
