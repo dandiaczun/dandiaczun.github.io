@@ -85,12 +85,12 @@ class Index extends React.Component {
               <li>
                 <span className="icon major style3 fa-user-circle-o"></span>
                 <h3>User Experience</h3>
-                <p>Understanding the users' needs and behaviors is the cornerstone of my work. I strive to use an empathetic in my design decisions and use analytics to hone my understanding of user behaviors.</p>
+                <p>Understanding the users' needs and behaviors is the cornerstone of my work. I strive to use an empathetic approach in my design decisions and back them up using analytics to hone my insight of user behaviors.</p>
               </li>
               <li>
                 <span className="icon major style5 fa-lightbulb-o"></span>
                 <h3>Strategy</h3>
-                <p>Whether it's with a pen &amp; paper or a whiteboard, I love brainstorming solutions to complex problems. No idea is a bad idea and nothing is off limits.</p>
+                <p>Whether it's with a pen and paper or a whiteboard, I love brainstorming solutions to complex problems. No idea is a bad idea and nothing is off limits.</p>
               </li>
             </ul>
           </section>
