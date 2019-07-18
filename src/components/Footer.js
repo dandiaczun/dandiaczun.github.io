@@ -18,9 +18,9 @@ const Footer = (props) => (
                 <dd><a href="#">dnd912@gmail.com</a></dd>
             </dl>
             <ul className="icons">
-                <li><a href="#" className="icon fa-linkedin alt"><span className="label">LinkedIn</span></a></li>
-                <li><a href="#" className="icon fa-github alt"><span className="label">GitHub</span></a></li>
-                <li><a href="#" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>
+                <li><a href="https://www.linkedin.com/in/dandiaczun/" target="_blank" className="icon fa-linkedin alt"><span className="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/dandiaczun" target="_blank" className="icon fa-github alt"><span className="label">GitHub</span></a></li>
+                <li><a href="https://www.instagram.com/dandiaczun/" target="_blank" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>
             </ul>
         </section>
         <p className="copyright">&copy; Dan Diaczun 2019 | Built with <a href="https://www.gatsbyjs.org/">Gatsby</a> </p>
