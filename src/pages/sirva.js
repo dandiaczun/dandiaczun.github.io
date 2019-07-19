@@ -7,7 +7,6 @@ import sirva_wire1 from '../assets/images/sirva-wire1.jpg'
 import sirva_wire2 from '../assets/images/sirva-wire2.jpg'
 import sirva_wire3 from '../assets/images/sirva-wire3.jpg'
 
-
 class Generic extends React.Component {
   render() {
 
