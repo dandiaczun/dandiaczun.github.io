@@ -14,9 +14,11 @@
 
 		@include breakpoint(xsmall) {
 			max-width: calc(100% - 2em);
+			width: 90%;
 		}
 
 		@include breakpoint(xxsmall) {
 			max-width: 100%;
+			width: 90%;
 		}
 	}
