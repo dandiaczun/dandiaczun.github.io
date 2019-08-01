@@ -23,7 +23,7 @@
 		family-fixed:		('Courier New', monospace),
 		weight:				300,
 		weight-bold:		400,
-		letter-spacing:		-0.025em
+		letter-spacing:		inherit
 	);
 
 // Palette.
@@ -40,8 +40,8 @@
 		invert: (
 			bg:				#f2f2f2,
 			bg-alt:			#ececec,
-			fg:				#000000,
-			fg-bold:		#000000,
+			fg:				#444444,
+			fg-bold:		#444444,
 			fg-light:		rgba(99,99,99,0.25),
 			border:			#dddddd,
 			border-bg:		rgba(222,222,222,0.25),

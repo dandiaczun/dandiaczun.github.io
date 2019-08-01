@@ -55,6 +55,7 @@
 	p {
 		margin: 0 0 _size(element-margin) 0;
 		font-size: .935em;
+		font-family: 'Raleway', Arial, sans-serif;
 
 		&.content {
 			-moz-columns: 20em 2;
@@ -74,6 +75,7 @@
 		line-height: 1.5;
 		margin: 0 0 (_size(element-margin) * 0.35) 0;
 		letter-spacing: _font(letter-spacing);
+		font-family: 'Raleway', Arial, sans-serif;
 
 		a {
 			color: inherit;
@@ -92,6 +94,7 @@
 
 	h3 {
 		font-size: 1.25em;
+		font-weight: 500;
 	}
 
 	h4 {
