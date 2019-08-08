@@ -33,7 +33,7 @@ class Generic extends React.Component {
             <span className="image main"><img src={sirva_wire2} alt="" /></span>
             <span className="image main"><img src={sirva_wire3} alt="" /></span>
             <h2>Results</h2>
-            <p>Using market research provided to us by SIRVA's marketing department, as well as analytics from SIRVA's exisiting site we were able discover underperforming elements on the current site and craft new wireframes that used a mobile-first approach to better connect with corporate professionals on the go. Elements from the wireframes were then designed, built and A/B tested using Optimizely, with the winners being integrated into the SIRVA site.</p>
+            <p>Using market research provided to us by SIRVA's marketing department, as well as analytics from SIRVA's existing site we were able discover underperforming elements on the current site and craft new wireframes that used a mobile-first approach to better connect with corporate professionals on the go. Elements from the wireframes were then designed, built and A/B tested using Optimizely, with the winners being integrated into the SIRVA site.</p>
             <h2>Role &amp; Technologies Used</h2>
             <p>I served as user experience designer and front-end developer on this project and was responsible for strategy, wireframes, and A/B test development. The wireframes were built using Axure and the A/B tests were built in Optimizely using Javascript, HTML5 and CSS3. </p>
           </section>

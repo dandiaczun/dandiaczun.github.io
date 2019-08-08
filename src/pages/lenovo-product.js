@@ -25,7 +25,7 @@ class Generic extends React.Component {
           </ul>
         </div>
           <section id="content" className="main">
-            <p>Another Lenovo project I worked on at Blast Radius was building a microsite to support the launch of a new generation of YOGA tablets and laptops. The site needed to demonstrate the benefits of a multi-purpose device while allowing users to explore the different product features without affecting load times or site speed. The site was designed to showcase the product's unique features and used Ashton Kutcher, a Lenovo product engineer, to demonstrate it's capabilties.</p>
+            <p>Another Lenovo project I worked on at Blast Radius was building a microsite to support the launch of a new generation of YOGA tablets and laptops. The site needed to demonstrate the benefits of a multi-purpose device while allowing users to explore the different product features without affecting load times or site speed. The site was designed to showcase the product's unique features and used Ashton Kutcher, a Lenovo product engineer, to demonstrate it's capabilities.</p>
             <span className="image main"><img src={lenovo_product1} alt="" /></span>
             <span className="image main"><img src={lenovo_product2} alt="" /></span>
             <h2>Results</h2>
