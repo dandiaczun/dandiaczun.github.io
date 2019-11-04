@@ -11,6 +11,7 @@ import headshot from '../assets/images/headshot.jpg'
 import southwest_thumb from '../assets/images/southwest-thumbnail.jpg'
 import clairol_thumb from '../assets/images/clairol-thumbnail.jpg'
 import uhc_thumb from '../assets/images/uhc-thumbnail.jpg'
+import allstate_thumb from '../assets/images/allstate-thumbnail.jpg'
 import devry_thumb from '../assets/images/devry-thumbnail.jpg'
 import sirva_thumb from '../assets/images/sirva-thumbnail.jpg'
 import lenovo_social_thumb from '../assets/images/lenovo-social-thumbnail.jpg'
@@ -115,6 +116,13 @@ class Index extends React.Component {
                 </span>
                 <h3>Clairol Pro</h3>
                 <Link to="/clairolpro" className="button">Learn More</Link>
+              </li>
+              <li>
+                <span className="image">
+                  <img src={allstate_thumb} alt="Allstate Portfolio Thumbnail" />
+                </span>
+                <h3>Allstate</h3>
+                <Link to="/allstate" className="button">Learn More</Link>
               </li>
               <li>
                 <span className="image">
