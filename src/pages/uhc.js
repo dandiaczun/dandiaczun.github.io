@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import uhc1 from '../assets/images/uhc1.jpg'
 import uhc2 from '../assets/images/uhc2.jpg'
-import uhc3 from '../assets/images/uhc3.jpg'
 
 class Generic extends React.Component {
   render() {
@@ -27,12 +26,12 @@ class Generic extends React.Component {
           <section id="content" className="main">
           <h2>Summary</h2>
             <p>During my time at Performics I was tasked with creating a roadmap for a series of A/B tests from 2016 through 2019 which I also designed and built using Visual Website Optimizer (VWO) and Optimizely. All of the tests used a data-driven approach based on user research, brand guidelines and traffic data from Google Analytics. These sources were then leveraged to influence strategy and design decisions. The tests ranged in complexity from simple user interface modifications to re-designing the funnel checkout process as well as implementing a chat support platform. </p>
-            <span className="image main"><img src={uhc1} alt="" /></span>
-            <h5>fuck</h5>
-            <span className="image main"><img src={uhc2} alt="" /></span>
-            <h5>fuck</h5>
-            <span className="image main"><img src={uhc3} alt="" /></span>
-            <h5>butt</h5>
+            <span className="image main"><img src={uhc1} alt="" />
+              <h5>Support Chat Platform Integration</h5>
+            </span>
+            <span className="image main"><img src={uhc2} alt="" />
+              <h5>Confirmation Page Re-Design</h5>
+            </span>
             <h2>Results</h2>
             <p>The individual tests had various rates of success, however average monthly revenue increased by $90,000, particulary after successful tests of the funnel and checkout pages.</p>
             <h2>Role & Technologies Used</h2>
