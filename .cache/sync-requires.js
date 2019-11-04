@@ -13,6 +13,7 @@ exports.components = {
   "component---src-pages-lenovo-product-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/lenovo-product.js"))),
   "component---src-pages-lenovo-social-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/lenovo-social.js"))),
   "component---src-pages-sirva-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/sirva.js"))),
-  "component---src-pages-southwest-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/southwest.js")))
+  "component---src-pages-southwest-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/southwest.js"))),
+  "component---src-pages-uhc-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/uhc.js")))
 }
 
