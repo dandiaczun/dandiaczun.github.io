@@ -35,7 +35,7 @@ class Index extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Dan Diaczun // Chicago UX Developer" />
+        <Helmet title="Dan Diaczun // Chicago UI Developer" />
 
         <Header />
 

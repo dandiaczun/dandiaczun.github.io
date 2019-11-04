@@ -12,8 +12,8 @@ class Generic extends React.Component {
       <Layout>
         <Helmet title="Dan Diaczun | Chicago UI Developer" />
         <header id="header">
-            <h1>Clairol Pro</h1>
-            <p>Product Launch Page</p>
+            <h1>United Healthcare</h1>
+            <p>A/B Tests</p>
         </header>
         <div id="main">
         <div className="portfolioNav">
@@ -25,13 +25,13 @@ class Generic extends React.Component {
         </div>
           <section id="content" className="main">
           <h2>Summary</h2>
-            <p>While at Performics we were approached by ClariolPro, an existing client, who was unhappy with their current website and felt that it didn't match the look and feel of a new product launching in the spring of 2019. With minimal assets, my team and I re-designed and developed a new product page for their site that reflected their current branding and was designed to support their goal of increasing conversions and educating customers.</p>
+            <p>During my time at Performics I was tasked with creating a roadmap for a series of A/B tests from 2016 through 2019 which I also designed and built using Visual Website Optimizer (VWO) and Optimizely. All of the tests used a data-driven approach based on user research, brand guidelines and traffic data from Google Analytics. These sources were then leveraged to influence strategy and design decisions. The tests ranged in complexity from simple user interface modifications to re-designing the funnel checkout process as well as implementing a chat support platform. </p>
             <span className="image main"><img src={clairol_desktop} alt="" /></span>
             <span className="image main"><img src={clairol_wireframe} alt="" /></span>
             <h2>Results</h2>
-            <p>The re-designed page saw a 12.4% click-through rate vs. 4.8% for the existing product pages and drove 18% of all site conversions. It was the 3rd most viewed product page on clairolpro.com and saw a bounce rate that was 51% lower than the site average.</p>
+            <p>The individual tests had various rates of success, however average monthly revenue increased by $90,000, particulary after successful tests of the funnel and checkout pages.</p>
             <h2>Role & Technologies Used</h2>
-            <p>During this project I served as the lead front-end developer and assisted with designing wireframes using Axure & the initial whiteboard strategy sessions. The page was developed using Bootstrap, Django & jQuery, and hosted on a propriety Python application & AWS.</p>
+            <p>Over the course of 3 years I served as lead front-end developer and user interface designer while creating the engagement’s overall roadmap and strategy for individual tests. I also assisted in creating wireframes and prototypes using Axure and Figma.</p>
           </section>
           <div className="portfolioNav">
             <ul>

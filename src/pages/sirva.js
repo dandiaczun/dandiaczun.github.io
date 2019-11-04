@@ -12,7 +12,7 @@ class Generic extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Dan Diaczun | Chicago UX Developer" />
+        <Helmet title="Dan Diaczun | Chicago UI Developer" />
         <header id="header">
             <h1>SIRVA</h1>
             <p>Site Re-Design Wireframes</p>
