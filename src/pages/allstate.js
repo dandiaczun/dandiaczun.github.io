@@ -2,9 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-//import allstate1 from '../assets/images/allstate1.jpg'
-//import allstate2 from '../assets/images/allstate2.jpg'
-//import allstate3 from '../assets/images/allstate3.jpg'
+import allstate1 from '../assets/images/allstate1.jpg'
+import allstate2 from '../assets/images/allstate2.jpg'
+import allstate3 from '../assets/images/allstate3.jpg'
 
 class Generic extends React.Component {
   render() {
@@ -13,8 +13,8 @@ class Generic extends React.Component {
       <Layout>
         <Helmet title="Dan Diaczun | Chicago UI Developer" />
         <header id="header">
-            <h1>United Healthcare</h1>
-            <p>A/B Tests</p>
+            <h1>Allstate</h1>
+            <p>Car Health Product Page</p>
         </header>
         <div id="main">
         <div className="portfolioNav">
@@ -26,7 +26,7 @@ class Generic extends React.Component {
         </div>
           <section id="content" className="main">
           <h2>Summary</h2>
-            <p>During my time at Performics I was tasked with creating a roadmap for a series of A/B tests from 2016 through 2019 which I also designed and built using Visual Website Optimizer (VWO) and Optimizely. All of the tests used a data-driven approach based on user research, brand guidelines and traffic data from Google Analytics. These sources were then leveraged to influence strategy and design decisions. The tests ranged in complexity from simple user interface modifications to re-designing the funnel checkout process as well as implementing a chat support platform. </p>
+            <p>While at Performics I was tasked with designing and developing several landing and product pages for Allstate, one of the agency’s longest client relationships. This product page is an example of a new product that was launched in 2016 called Car Health (now Drivewise) which was designed to give drivers personalized feedback and offer savings & cash back through everyday safe driving, while encouraging and developing good driving habits. The page itself was designed to be informative and allow users to check the product’s compatibility with their car, while providing several call to actions to encourage users to purchase the product.</p>
             <span className="image main"><img src={allstate1} alt="" />
             </span>
             <span className="image main"><img src={allstate2} alt="" />
@@ -34,9 +34,9 @@ class Generic extends React.Component {
             <span className="image main"><img src={allstate3} alt="" />
             </span>
             <h2>Results</h2>
-            <p>The individual tests had various rates of success, however average monthly revenue increased by $90,000, particulary after successful tests of the funnel and checkout pages.</p>
+            <p>The product launched in a few test markets to gauge interest and then was introduced on a national level. Usability tests showed that users favored the diagnostic features of the product and later research data from Allstate showed that interest increased due to the savings offerings and cash back for good driving habits.</p>
             <h2>Role & Technologies Used</h2>
-            <p>Over the course of 3 years I served as lead front-end developer and user interface designer while creating the engagement’s overall roadmap and strategy for individual tests. I also assisted in creating wireframes and prototypes using Axure and Figma.</p>
+            <p>For this landing page I was tasked with UI design and front-end development using HTML5 and CSS3. The page was then integrated into Allstate’s content management system, which was powered by Adobe Experience Manager.</p>
           </section>
           <div className="portfolioNav">
             <ul>
