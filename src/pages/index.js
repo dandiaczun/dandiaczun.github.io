@@ -144,7 +144,7 @@ class Index extends React.Component {
                   <img src={icebreaker_thumb} alt="Icebreaker Portfolio Thumbnail" />
                 </span>
                 <h3>Icebreaker</h3>
-                <Link to="/sirva" className="button">Learn More</Link>
+                <Link to="/icebreaker" className="button">Learn More</Link>
               </li>
               <li>
                 <span className="image">
