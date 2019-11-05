@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-lenovo-social-js": () => import("../src/pages/lenovo-social.js" /* webpackChunkName: "component---src-pages-lenovo-social-js" */),
   "component---src-pages-sirva-js": () => import("../src/pages/sirva.js" /* webpackChunkName: "component---src-pages-sirva-js" */),
   "component---src-pages-southwest-js": () => import("../src/pages/southwest.js" /* webpackChunkName: "component---src-pages-southwest-js" */),
-  "component---src-pages-uhc-js": () => import("../src/pages/uhc.js" /* webpackChunkName: "component---src-pages-uhc-js" */)
+  "component---src-pages-uhc-js": () => import("../src/pages/uhc.js" /* webpackChunkName: "component---src-pages-uhc-js" */),
+  "component---src-pages-icebreaker-js": () => import("../src/pages/icebreaker.js" /* webpackChunkName: "component---src-pages-icebreaker-js" */)
 }
 
