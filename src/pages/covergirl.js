@@ -2,8 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import philosophy1 from '../assets/images/philosophy1.jpg'
-import philosophy2 from '../assets/images/philosophy2.jpg'
+import covergirl1 from '../assets/images/covergirl1.jpg'
+import covergirl2 from '../assets/images/covergirl2.jpg'
 
 
 class Generic extends React.Component {
@@ -14,7 +14,7 @@ class Generic extends React.Component {
         <Helmet title="Dan Diaczun | Chicago UI Developer" />
         <header id="header">
             <h1>Covergirl</h1>
-            <p>Product Page A/B Tests</p>
+            <p>Product Page Re-Design A/B Test</p>
         </header>
         <div id="main">
         <div className="portfolioNav">
@@ -26,17 +26,17 @@ class Generic extends React.Component {
         </div>
           <section id="content" className="main">
           <h2>Summary</h2>
-            <p>Another series of A/B tests that I worked on at Performics was for Philosophy, a line of skincare and beauty products that was looking to increase conversions, particularly during their busy summer and fall sales. The tests initially began as simple user interface modifications and personalizations on the homepage that were designed to demonstrate the value of A/B testing to the client. They eventually grew in complexity to include new features on the product page such as an image carousel, a promotional code for discounts, re-designed shopping cart modal and the integration of a user review platform.</p>
-            <span className="image main"><img src={philosophy1} alt="" />
-              <h5>User Review Platform Integration</h5>
+            <p>While at Performics I had the opportunity to develop a series of A/B tests for Covergirl, an established brand that was looking to experiment with their product pages in order to increase conversions and time spent on the site. My team and I decided to re-design the page using large images that showcased some of the product’s details along with integrating a reviews feature, allowing Covergirl’s users to provide feedback on products.</p>
+            <span className="image main"><img src={covergirl1} alt="" />
+              <h5>Product Page Re-Design and User Review Integration</h5>
             </span>
-            <span className="image main"><img src={philosophy2} alt="" />
-              <h5>Re-Designed Shopping Cart Modal with Promotional Code</h5>
+            <span className="image main"><img src={covergirl2} alt="" />
+              <h5>Buying Options Modal Window</h5>
             </span>
             <h2>Results</h2>
-            <p>The more complex tests were launched prior to Philosophy’s fall sale, their largest online sale of the year which generates roughly 33% of their annual revenue. The tests were tied into promotional content on their Facebook page as well as paid Google ads, which helped deliver a 13% increase in conversions as well as Philosophy’s most successful fall sale in their history.</p>
+            <p>The re-designed product page won against the control and was integrated across all Covergirl product pages. It saw a 0.5% increase in conversions as well as a decrease in bounce rate from 50% to 38%, and usability tests from Covergirl showed that users favored the introduction of the reviews feature, citing that customer feedback was an important factor in their purchasing decisions.</p>
             <h2>Role & Technologies Used</h2>
-            <p>During these projects I served in a hybrid designer & developer role, where I designed the user interface elements and layouts of the A/B tests using Adobe Photoshop and Sketch. I then built the tests using Javascript, HTML5 & CSS3 in Optimizely and assisted in the Google Analytics integration. </p>
+            <p>During the course of these tests I served in a dual designer/developer role, designing and building the tests using Adobe Photoshop, Sketch and Optimizely.</p>
           </section>
           <div className="portfolioNav">
             <ul>
