@@ -26,15 +26,17 @@ class Generic extends React.Component {
         </div>
           <section id="content" className="main">
           <h2>Summary</h2>
-            <p>One of my first projects at Performics was to design and build an animated infographic for Icebreaker, a New Zealand based outdoor clothing brand. Icebreaker was in the midst of a North American expansion and wanted to showcase some of its products with interactive content that would demonstrate its offerings and capabilities. My team and I recommended an infographic with animated elements that would show how Icebreaker products could be used in a real world setting and chose a hike up Mt. Whitney, the highest summit in the continental United States. </p>
+            <p>Another series of A/B tests that I worked on at Performics was for Philosophy, a line of skincare and beauty products that was looking to increase conversions, particularly during their busy summer and fall sales. The tests initially began as simple user interface modifications and personalizations on the homepage that were designed to demonstrate the value of A/B testing to the client. They eventually grew in complexity to include new features on the product page such as an image carousel, a promotional code for discounts, re-designed shopping cart modal and the integration of a user review platform.</p>
             <span className="image main"><img src={philosophy1} alt="" />
+              <h5>User Review Platform</h5>
             </span>
             <span className="image main"><img src={philosophy2} alt="" />
+              <h5>Re-Designed Shopping Cart Modal with Promotional Code</h5>
             </span>
             <h2>Results</h2>
-            <p>The infographic was launched in March 2015 prior to Mt. Whitney’s climbing season, which runs from May through October and was featured on Icebreaker’s Facebook page. The infographic’s launch helped drive traffic to Icebreaker’s site which saw an increase in conversions prior to Mt. Whitney’s climbing season.</p>
+            <p>The more complex tests were launched prior to Philosophy’s fall sale, their largest online sale of the year which generates roughly 33% of their annual revenue. The tests were tied into promotional content on their Facebook page as well as paid Google ads, which helped deliver a 13% increase in conversions as well as Philosophy’s most successful fall sale in their history.</p>
             <h2>Role & Technologies Used</h2>
-            <p>I was tasked with the design and development of this project which was designed with Adobe Illustrator & Photoshop and built using HTML5 and CSS3 for the animated elements. </p>
+            <p>During these projects I served in a hybrid designer & developer role, where I designed the user interface elements and layouts of the A/B tests using Adobe Photoshop and Sketch. I then built the tests using Javascript, HTML5 & CSS3 in Optimizely and assisted in the Google Analytics integration. </p>
           </section>
           <div className="portfolioNav">
             <ul>
