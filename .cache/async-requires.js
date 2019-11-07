@@ -14,6 +14,7 @@ exports.components = {
   "component---src-pages-philosophy-js": () => import("../src/pages/philosophy.js" /* webpackChunkName: "component---src-pages-philosophy-js" */),
   "component---src-pages-sirva-js": () => import("../src/pages/sirva.js" /* webpackChunkName: "component---src-pages-sirva-js" */),
   "component---src-pages-southwest-js": () => import("../src/pages/southwest.js" /* webpackChunkName: "component---src-pages-southwest-js" */),
-  "component---src-pages-uhc-js": () => import("../src/pages/uhc.js" /* webpackChunkName: "component---src-pages-uhc-js" */)
+  "component---src-pages-uhc-js": () => import("../src/pages/uhc.js" /* webpackChunkName: "component---src-pages-uhc-js" */),
+  "component---src-pages-covergirl-js": () => import("../src/pages/covergirl.js" /* webpackChunkName: "component---src-pages-covergirl-js" */)
 }
 

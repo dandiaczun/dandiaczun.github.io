@@ -14,6 +14,7 @@ import uhc_thumb from '../assets/images/uhc-thumbnail.jpg'
 import allstate_thumb from '../assets/images/allstate-thumbnail.jpg'
 import devry_thumb from '../assets/images/devry-thumbnail.jpg'
 import icebreaker_thumb from '../assets/images/icebreaker-thumbnail.jpg'
+import covergirl_thumb from '../assets/images/covergirl-thumbnail.jpg'
 import sirva_thumb from '../assets/images/sirva-thumbnail.jpg'
 import philosophy_thumb from '../assets/images/philosophy-thumbnail.jpg'
 import lenovo_social_thumb from '../assets/images/lenovo-social-thumbnail.jpg'
@@ -146,6 +147,13 @@ class Index extends React.Component {
                 </span>
                 <h3>Icebreaker</h3>
                 <Link to="/icebreaker" className="button">Learn More</Link>
+              </li>
+              <li>
+                <span className="image">
+                  <img src={covergirl_thumb} alt="Covergirl Portfolio Thumbnail" />
+                </span>
+                <h3>Covergirl</h3>
+                <Link to="/covergirl" className="button">Learn More</Link>
               </li>
               <li>
                 <span className="image">

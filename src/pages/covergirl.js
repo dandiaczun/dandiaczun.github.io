@@ -13,7 +13,7 @@ class Generic extends React.Component {
       <Layout>
         <Helmet title="Dan Diaczun | Chicago UI Developer" />
         <header id="header">
-            <h1>Philosophy</h1>
+            <h1>Covergirl</h1>
             <p>Product Page A/B Tests</p>
         </header>
         <div id="main">
