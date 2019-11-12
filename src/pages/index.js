@@ -122,13 +122,6 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image">
-                  <img src={allstate_thumb} alt="Allstate Portfolio Thumbnail" />
-                </span>
-                <h3>Allstate</h3>
-                <Link to="/allstate" className="button">Learn More</Link>
-              </li>
-              <li>
-                <span className="image">
                   <img src={uhc_thumb} alt="United Healthcare Portfolio Thumbnail" />
                 </span>
                 <h3>United Healthcare</h3>
@@ -136,10 +129,10 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image">
-                  <img src={devry_thumb} alt="DeVry Portfolio Thumbnail" />
+                  <img src={allstate_thumb} alt="Allstate Portfolio Thumbnail" />
                 </span>
-                <h3>DeVry University</h3>
-                <Link to="/devry" className="button">Learn More</Link>
+                <h3>Allstate</h3>
+                <Link to="/allstate" className="button">Learn More</Link>
               </li>
               <li>
                 <span className="image">
@@ -147,6 +140,13 @@ class Index extends React.Component {
                 </span>
                 <h3>Icebreaker</h3>
                 <Link to="/icebreaker" className="button">Learn More</Link>
+              </li>
+              <li>
+                <span className="image">
+                  <img src={devry_thumb} alt="DeVry Portfolio Thumbnail" />
+                </span>
+                <h3>DeVry University</h3>
+                <Link to="/devry" className="button">Learn More</Link>
               </li>
               <li>
                 <span className="image">

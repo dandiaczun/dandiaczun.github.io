@@ -9,6 +9,7 @@ exports.components = {
   "component---src-pages-404-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/404.js"))),
   "component---src-pages-allstate-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/allstate.js"))),
   "component---src-pages-clairolpro-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/clairolpro.js"))),
+  "component---src-pages-covergirl-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/covergirl.js"))),
   "component---src-pages-devry-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/devry.js"))),
   "component---src-pages-icebreaker-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/icebreaker.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/index.js"))),
@@ -17,7 +18,6 @@ exports.components = {
   "component---src-pages-philosophy-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/philosophy.js"))),
   "component---src-pages-sirva-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/sirva.js"))),
   "component---src-pages-southwest-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/southwest.js"))),
-  "component---src-pages-uhc-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/uhc.js"))),
-  "component---src-pages-covergirl-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/covergirl.js")))
+  "component---src-pages-uhc-js": hot(preferDefault(require("/Users/dandiaczun/Desktop/portfolio/src/pages/uhc.js")))
 }
 

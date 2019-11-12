@@ -6,6 +6,7 @@ exports.components = {
   "component---src-pages-404-js": () => import("../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-allstate-js": () => import("../src/pages/allstate.js" /* webpackChunkName: "component---src-pages-allstate-js" */),
   "component---src-pages-clairolpro-js": () => import("../src/pages/clairolpro.js" /* webpackChunkName: "component---src-pages-clairolpro-js" */),
+  "component---src-pages-covergirl-js": () => import("../src/pages/covergirl.js" /* webpackChunkName: "component---src-pages-covergirl-js" */),
   "component---src-pages-devry-js": () => import("../src/pages/devry.js" /* webpackChunkName: "component---src-pages-devry-js" */),
   "component---src-pages-icebreaker-js": () => import("../src/pages/icebreaker.js" /* webpackChunkName: "component---src-pages-icebreaker-js" */),
   "component---src-pages-index-js": () => import("../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
@@ -14,7 +15,6 @@ exports.components = {
   "component---src-pages-philosophy-js": () => import("../src/pages/philosophy.js" /* webpackChunkName: "component---src-pages-philosophy-js" */),
   "component---src-pages-sirva-js": () => import("../src/pages/sirva.js" /* webpackChunkName: "component---src-pages-sirva-js" */),
   "component---src-pages-southwest-js": () => import("../src/pages/southwest.js" /* webpackChunkName: "component---src-pages-southwest-js" */),
-  "component---src-pages-uhc-js": () => import("../src/pages/uhc.js" /* webpackChunkName: "component---src-pages-uhc-js" */),
-  "component---src-pages-covergirl-js": () => import("../src/pages/covergirl.js" /* webpackChunkName: "component---src-pages-covergirl-js" */)
+  "component---src-pages-uhc-js": () => import("../src/pages/uhc.js" /* webpackChunkName: "component---src-pages-uhc-js" */)
 }
 
