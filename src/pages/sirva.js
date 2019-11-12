@@ -20,9 +20,9 @@ class Generic extends React.Component {
         <div id="main">
         <div className="portfolioNav">
           <ul>
-            <li><a href="/devry" id="prev">Prev</a></li>
+            <li><a href="/covergirl" id="prev">Prev</a></li>
             <li><a href="/" id="home">Home</a></li>
-            <li><a href="/lenovo-social" id="next">Next</a></li>
+            <li><a href="/philosophy" id="next">Next</a></li>
           </ul>
         </div>
           <section id="content" className="main">
@@ -39,9 +39,9 @@ class Generic extends React.Component {
           </section>
           <div className="portfolioNav">
             <ul>
-              <li><a href="/devry" id="prev">Prev</a></li>
+              <li><a href="/covergirl" id="prev">Prev</a></li>
               <li><a href="/" id="home">Home</a></li>
-              <li><a href="/lenovo-social" id="next">Next</a></li>
+              <li><a href="/philosophy" id="next">Next</a></li>
             </ul>
           </div>
         </div>

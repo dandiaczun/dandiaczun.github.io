@@ -10,8 +10,13 @@ import Nav from '../components/Nav'
 import headshot from '../assets/images/headshot.jpg'
 import southwest_thumb from '../assets/images/southwest-thumbnail.jpg'
 import clairol_thumb from '../assets/images/clairol-thumbnail.jpg'
+import uhc_thumb from '../assets/images/uhc-thumbnail.jpg'
+import allstate_thumb from '../assets/images/allstate-thumbnail.jpg'
 import devry_thumb from '../assets/images/devry-thumbnail.jpg'
+import icebreaker_thumb from '../assets/images/icebreaker-thumbnail.jpg'
+import covergirl_thumb from '../assets/images/covergirl-thumbnail.jpg'
 import sirva_thumb from '../assets/images/sirva-thumbnail.jpg'
+import philosophy_thumb from '../assets/images/philosophy-thumbnail.jpg'
 import lenovo_social_thumb from '../assets/images/lenovo-social-thumbnail.jpg'
 import lenovo_product_thumb from '../assets/images/lenovo-product-thumbnail.jpg'
 
@@ -117,6 +122,27 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image">
+                  <img src={uhc_thumb} alt="United Healthcare Portfolio Thumbnail" />
+                </span>
+                <h3>United Healthcare</h3>
+                <Link to="/uhc" className="button">Learn More</Link>
+              </li>
+              <li>
+                <span className="image">
+                  <img src={allstate_thumb} alt="Allstate Portfolio Thumbnail" />
+                </span>
+                <h3>Allstate</h3>
+                <Link to="/allstate" className="button">Learn More</Link>
+              </li>
+              <li>
+                <span className="image">
+                  <img src={icebreaker_thumb} alt="Icebreaker Portfolio Thumbnail" />
+                </span>
+                <h3>Icebreaker</h3>
+                <Link to="/icebreaker" className="button">Learn More</Link>
+              </li>
+              <li>
+                <span className="image">
                   <img src={devry_thumb} alt="DeVry Portfolio Thumbnail" />
                 </span>
                 <h3>DeVry University</h3>
@@ -124,10 +150,24 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image">
+                  <img src={covergirl_thumb} alt="Covergirl Portfolio Thumbnail" />
+                </span>
+                <h3>Covergirl</h3>
+                <Link to="/covergirl" className="button">Learn More</Link>
+              </li>
+              <li>
+                <span className="image">
                   <img src={sirva_thumb} alt="SIRVA Portfolio Thumbnail" />
                 </span>
                 <h3>SIRVA</h3>
                 <Link to="/sirva" className="button">Learn More</Link>
+              </li>
+              <li>
+                <span className="image">
+                  <img src={philosophy_thumb} alt="Philosophy Portfolio Thumbnail" />
+                </span>
+                <h3>Philosophy</h3>
+                <Link to="/philosophy" className="button">Learn More</Link>
               </li>
               <li>
                 <span className="image">

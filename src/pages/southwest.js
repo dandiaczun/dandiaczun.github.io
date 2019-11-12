@@ -18,9 +18,9 @@ class Page extends React.Component {
         <div id="main">
           <div className="portfolioNav">
             <ul>
-              <li><a href="/lenovo-product" id="prev">Prev</a></li>
-              <li><a href="/" id="home">Home</a></li>
-              <li><a href="/clairolpro" id="next">Next</a></li>
+            <li><a href="/lenovo-product" id="prev">Prev</a></li>
+            <li><a href="/" id="home">Home</a></li>
+            <li><a href="/clairolpro" id="next">Next</a></li>
             </ul>
           </div>
           <section id="content" className="main">
