@@ -20,7 +20,7 @@ class Generic extends React.Component {
           <ul>
             <li><a href="/southwest" id="prev">Prev</a></li>
             <li><a href="/" id="home">Home</a></li>
-            <li><a href="/devry" id="next">Next</a></li>
+            <li><a href="/uhc" id="next">Next</a></li>
           </ul>
         </div>
           <section id="content" className="main">

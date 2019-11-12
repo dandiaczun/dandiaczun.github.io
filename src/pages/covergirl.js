@@ -19,9 +19,9 @@ class Generic extends React.Component {
         <div id="main">
         <div className="portfolioNav">
           <ul>
-            <li><a href="/southwest" id="prev">Prev</a></li>
+            <li><a href="/devry" id="prev">Prev</a></li>
             <li><a href="/" id="home">Home</a></li>
-            <li><a href="/devry" id="next">Next</a></li>
+            <li><a href="/sirva" id="next">Next</a></li>
           </ul>
         </div>
           <section id="content" className="main">
