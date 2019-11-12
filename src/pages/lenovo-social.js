@@ -33,7 +33,7 @@ class Generic extends React.Component {
           </section>
           <div className="portfolioNav">
             <ul>
-              <li><a href="/sirva" id="prev">Prev</a></li>
+              <li><a href="/philosophy" id="prev">Prev</a></li>
               <li><a href="/" id="home">Home</a></li>
               <li><a href="/lenovo-product" id="next">Next</a></li>
             </ul>
